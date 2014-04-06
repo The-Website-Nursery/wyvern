@@ -2,3 +2,9 @@
 .pad-top {
     padding-top: 10%;
 }
+
+/* Modal Dialogs */
+
+.modal-dialog {
+    width: 30%;
+}

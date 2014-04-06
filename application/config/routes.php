@@ -41,6 +41,8 @@
 $route['default_controller'] = "index";
 $route['404_override'] = '';
 
+/* ION Auth Routes */
+$route['auth/(.*)'] = 'users/auth/$1';
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
