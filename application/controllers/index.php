@@ -14,9 +14,14 @@ class Index extends MY_Controller {
     function __construct() {
         parent::__construct();
     }
-    
+
     public function index() {
-        $this->load->view(THEME_PATH . 'default', $this->data);
+        if (is_logged_in()) {
+            if (is_admin())
+                redirect('/admin');
+        }else {
+            $this->load->view(THEME_PATH . 'default', $this->data);
+        }
     }
 
 }
