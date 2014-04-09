@@ -19,6 +19,9 @@ class MY_Controller extends CI_Controller {
         $this->data['js'] = get_asset_url($this->config->item('theme_js'));
         $this->data['css'] = get_asset_url($this->config->item('theme_css'));
         $this->data['fonts'] = get_asset_url($this->config->item('theme_fonts'));
+
+        /* Load Modules */
+        $this->load->spark('ion_auth/2.5.0'); 
     }
 
 }

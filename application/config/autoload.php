@@ -52,7 +52,7 @@ $autoload['packages'] = array();
 |	$autoload['libraries'] = array('database', 'session', 'xmlrpc');
 */
 
-$autoload['libraries'] = array('database', 'session', 'users/ion_auth');
+$autoload['libraries'] = array('database', 'session');
 
 
 /*
@@ -64,7 +64,7 @@ $autoload['libraries'] = array('database', 'session', 'users/ion_auth');
 |	$autoload['helper'] = array('url', 'file');
 */
 
-$autoload['helper'] = array('url', 'common', 'layout');
+$autoload['helper'] = array('url', 'common', 'layout', 'bootstrap_form', 'form');
 
 
 /*

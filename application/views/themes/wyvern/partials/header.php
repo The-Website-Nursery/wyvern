@@ -89,7 +89,7 @@
                         <a href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a href="#clients" data-toggle="modal" data-target="#myModal">Clients</a>
+                        <a href="<?php echo site_url('/auth/login'); ?>">Clients</a>
                     </li>
                     <li>
                         <a href="<?php echo site_url('/development'); ?>">Development</a>

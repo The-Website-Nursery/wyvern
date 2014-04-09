@@ -1,3 +1,7 @@
+/* Common Elements */
+h1 {
+    font-size: 2em;
+}
 
 .pad-top {
     padding-top: 10%;
@@ -7,4 +11,35 @@
 
 .modal-dialog {
     width: 30%;
+}
+
+/* Forms */
+form {
+    margin: 0 auto;
+    background-color: #f1f1f1;
+
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding: 20px 10px;
+}
+
+.half-width {
+    width: 40%;
+}
+
+.warnings {
+    margin-bottom: 20px;
+}
+
+.warnings p {
+    color: red;
+    font-size: .9em;
+    font-weight: normal;
+}
+
+input[type='checkbox'] {
+    width: 14px;
+    height: 14px;
+    display: block;
 }

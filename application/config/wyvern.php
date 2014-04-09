@@ -14,7 +14,8 @@ $config['assets_path'] = 'assets/themes/';
 $config['logo_default'] = 'logo-200px-75px.png';
 
 $config['theme_js'] = array(
-    'js/bootstrap.js'
+    'js/bootstrap.js',
+    'js/common.js'
 );
 
 $config['theme_css'] = array(
