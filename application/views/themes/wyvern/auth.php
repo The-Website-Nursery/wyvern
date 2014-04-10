@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="container auth-module">
     <?php $this->load->view($view, $this->viewdata, $render); ?>
 </div>
 

@@ -38,7 +38,7 @@ form {
     font-weight: normal;
 }
 
-input[type='checkbox'] {
+.auth-module input[type='checkbox'] {
     width: 14px;
     height: 14px;
     display: block;
